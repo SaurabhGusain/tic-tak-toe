@@ -18,8 +18,10 @@ int player()
         { 
             return 0;
         }
-          else{  printf("%s is not a registered player.\n",f); 
-        continue;}
+          else{ 
+                  printf("%s is not a registered player.\n",f); 
+                continue;
+          }
     }
 }
 void currentstate(char arr[3][3])
